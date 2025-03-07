@@ -7,13 +7,13 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: #e3f9ff;
+    background: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .calculator{
-    background: #304452;
+    background: black;
     padding: 20px;
     border-radius: 10px;
 }
@@ -31,12 +31,14 @@
     margin: 10px;
 }
 form .display{
+    background-color: lightcyan;
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
 }
 form .display input{
     text-align: right;
+    color: black;
     flex: 1;
     font-size: 45px;
     box-shadow: none;
